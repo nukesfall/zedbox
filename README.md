@@ -1,1 +1,1 @@
-# zedbox
+# dedzed.com
