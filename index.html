@@ -1,23 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>DEDZED</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEDZED</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0a0a0a;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+/* MAIN WRAPPER */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* LOGO */
+.logo {
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+/* SUBTEXT */
+.subtext {
+  font-size: 0.95rem;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+/* CONTACT */
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  padding: 15px;
+}
+</style>
 </head>
+
 <body>
-  <div class="container">
-    <form id="login-form">
-      <h1>DEDZED</h1>
-      <input type="text" placeholder="Username" required>
-      <input type="password" placeholder="Password" required>
-      <button type="submit">Login</button>
-    </form>
-    <footer>
-      <p>Coming Soon</p>
-    </footer>
+
+<div class="main">
+
+  <img src="dz.png" alt="DEDZED Logo" class="logo">
+
+  <div class="subtext">
+    Graphic design for TV, Props, Cosplay, and More! 
   </div>
-  <script src="script.js"></script>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <a href="mailto:hey@dedzed.com">logan@dedzed.com</a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 IRL Robotics dba DEDZED INC
+</footer>
+
 </body>
 </html>
